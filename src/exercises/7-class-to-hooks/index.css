@@ -16,3 +16,59 @@ label {
 label + div {
   font-size: 80px;
 }
+
+.error {
+  background: #ffebee;
+  border: 1px solid #b71c1c;
+  color: #b71c1c;
+  margin-bottom: 0.5em;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+button {
+  background: #4f2aff;
+  color: #fff;
+  border: 2px solid #babada;
+  outline: none;
+  padding: 5px 10px;
+  transition: all 0.1s;
+}
+button:focus {
+  box-shadow: 0 0 3px blue;
+}
+button:active {
+  transform: scale(0.95);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+label {
+  font-weight: 600;
+  font-size: 0.8em;
+  color: #555;
+}
+input {
+  margin-bottom: 1em;
+  padding: 3px 8px;
+}
+input:last-of-type {
+  margin-bottom: 1.5em;
+}
+
+h1 {
+  color: #424242;
+  margin: 0;
+  margin-bottom: 30px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  margin-left: 48px;
+  margin-bottom: 30px;
+}

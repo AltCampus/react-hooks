@@ -1,0 +1,3 @@
+/*
+create two buttons with on and off use useReducer to manage state
+*/

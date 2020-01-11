@@ -1,0 +1,16 @@
+.room p {
+  margin-bottom: 30px;
+}
+
+.room.lit {
+  background: #fff;
+  color: #333;
+}
+
+.room.unlit {
+  background: #333;
+  color: #fff;
+}
+.room.unlit h1 {
+  color: #fff;
+}
