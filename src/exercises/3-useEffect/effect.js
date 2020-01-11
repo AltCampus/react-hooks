@@ -1,10 +1,7 @@
 /*
-- implement title change in the tab to show useEffect
-- implement dependency array to display the running the effect multiple times. (multiple form fields)
-- use setInterval to display how you remove the effect
-*/
-
-/*
-- create a textarea and a button when you type in. Max length of the character you can type is 160.
-
+- create a textarea and a button. Max length of the character in textarea is 160.
+- by default the message in text area is "hello hooks"
+- show character count like 20/160 below text area and on title tab
+- you have another message stored in a variable and that loads when you click on load button
+- when message changes on clicking on load the counter 20/160 should also update
 */
